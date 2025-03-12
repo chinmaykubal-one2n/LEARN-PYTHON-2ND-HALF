@@ -1,4 +1,3 @@
-Here’s a detailed tabular comparison of the data types you mentioned:  
 
 | Data Type    | Example Code | Explanation | Purpose & Use Case |  
 |-------------|-------------|-------------|---------------------|  
