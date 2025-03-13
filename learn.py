@@ -69,6 +69,30 @@
 
 # text = "The best things in life are free!"
 # if "expensive" not in text:
-#   print("No, 'expensive' is NOT present.")
+#   printf("No, 'expensive' is NOT present.")
 
 # # Slicing (https://www.w3schools.com/python/python_strings_slicing.asp)
+# slice_me = "Hello, World!"
+# print(slice_me[1:6]) # Output: ello,
+# print(slice_me[:6]) # Output: Hello,
+# print(slice_me[7:]) # Output: World!
+# print(slice_me[-6:-1]) # Output: World
+
+# # upper case and lower case, remove whitespace, replace, split
+# my_string = " My name is chinmay kubal  "
+# print(my_string.upper())
+# print(my_string.lower())
+# print(my_string.strip()) # The strip() method removes any whitespace from the beginning or the end
+# print(my_string.replace("chinmay","charuchandra"))
+# print(my_string.split("is")) # The split() method splits the string into substrings if it finds instances of the separator, [' My name ', ' chinmay kubal  ']
+
+# # Format - Strings
+# age = 36 # here we dont want to make 36 a string at this place as that will be a permanent change.
+# # text1 = "My name is John, I am " + age
+# # print(text1) # Output: TypeError: can only concatenate str (not "int") to str
+# text2 = f"My name is John, I am {age}"
+# text3 = f"myltiply this {2 *5}"
+# print(text2) # Output: My name is John, I am 36
+# print(text3) # Output: myltiply this 10
+
+# # read the readme.md file for more details on strings
