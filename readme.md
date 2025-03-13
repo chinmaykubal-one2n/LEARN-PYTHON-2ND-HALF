@@ -103,5 +103,3 @@ A table summarizing all the string methods in Python along with examples:
 | `translate(table)` | Translates characters using table | `"hello".translate({104: 72})` | `"Hello"` |  
 | `upper()` | Converts to uppercase | `"hello".upper()` | `"HELLO"` |  
 | `zfill(width)` | Fills with zeros from the left | `"42".zfill(5)` | `"00042"` |  
-
-This table provides a clear overview of each method with examples and outputs. Let me know if you need more details! 🚀
